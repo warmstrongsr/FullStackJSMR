@@ -1,0 +1,6 @@
+Movie.Controller.java "the API layer"- is only concerned with the getting the request from the user and returning the response.
+Movie.Service.java - uses the repository class, and talks to the database, get the list of the movies and returns to the API layer. 
+
+Finally, the 
+
+Movie.Repository layer is kind of the data access layer for out API It does the job of actually talking to the database and taking the data back.
